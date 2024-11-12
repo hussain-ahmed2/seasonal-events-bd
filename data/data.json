@@ -1,0 +1,132 @@
+[
+    {
+        "season": "Summer",
+        "image": "/summer.png",
+        "description": "Summer in Bangladesh is intense, with soaring temperatures and high humidity. The heat dominates the air, making it the perfect time for festivals that offer relief and celebrations. People flock to rivers, enjoy tropical fruits, and immerse themselves in vibrant cultural activities. Festivals like the Mango Festival bring people together to appreciate the rich agricultural bounty of the land, while events like the Boishakhi Mela celebrate new beginnings and the essence of Bengali traditions. Summer is a season of resilience, community bonding, and the celebration of nature’s gifts.",
+        "events": [
+            {
+                "id": "mango-festival",
+                "name": "Mango Festival",
+                "description": "A celebration of mangoes, showcasing the wide variety grown in Bangladesh. Events include mango tasting, cooking demonstrations, and agricultural fairs.",
+                "dateRange": "June to August",
+                "image": "link_to_mango_festival_image.jpg",
+                "avgRating": 4.7
+            },
+            {
+                "id": "boishakhi-mela",
+                "name": "Boishakhi Mela",
+                "description": "A cultural fair celebrating Bengali New Year with traditional music, dance, and handicrafts.",
+                "dateRange": "April to May",
+                "image": "link_to_boishakhi_mela_image.jpg",
+                "avgRating": 4.8
+            }
+        ]
+    },
+    {
+        "season": "Monsoon",
+        "image": "/monsoon.png",
+        "description": "Monsoon is the most awaited season in Bangladesh, as the rains transform the landscape, nurturing the fields and bringing life to the environment. It’s a time of renewal and growth, with the monsoon rains often symbolizing prosperity. The season is marked by festivals that celebrate the arrival of the rain, such as the Rainy Season Festival. Boat races, a popular event during this time, showcase local craftsmanship and team spirit as communities compete on the water. The monsoon season is a time to celebrate the rhythm of nature, the sounds of rain, and the spirit of the people.",
+        "events": [
+            {
+                "id": "rainy-season-festival",
+                "name": "Rainy Season Festival",
+                "description": "A festival celebrating the arrival of the monsoon, with traditional songs, dances, and boat races.",
+                "dateRange": "July to September",
+                "image": "link_to_rainy_season_festival_image.jpg",
+                "avgRating": 4.6
+            },
+            {
+                "id": "boat-race",
+                "name": "Boat Race",
+                "description": "Popular in the rivers of Bangladesh during monsoon, these boat races showcase local craftsmanship and community spirit.",
+                "dateRange": "August to September",
+                "image": "link_to_boat_race_image.jpg",
+                "avgRating": 4.9
+            }
+        ]
+    },
+    {
+        "season": "Autumn",
+        "image": "/autumn.png",
+        "description": "Autumn in Bangladesh is a transition from the heat of summer to the coolness of winter. The air becomes crisp and refreshing, bringing a sense of calm and clarity. It’s a time for harvest and giving thanks for the bounty of the land. Festivals like Nabanna Utsab are an essential part of this season, celebrating the abundance of the rice harvest with joyous music, dance, and food. Autumn represents the fullness of life’s cycles, offering a time for reflection, thanksgiving, and community connection around nature’s abundance.",
+        "events": [
+            {
+                "id": "nabanna",
+                "name": "Nabanna Utsab",
+                "description": "An autumn festival celebrating the harvest with traditional dance, songs, and food made from the new rice harvest.",
+                "dateRange": "October to November",
+                "image": "link_to_nabanna_image.jpg",
+                "avgRating": 4.8
+            }
+        ]
+    },
+    {
+        "season": "Late Autumn",
+        "image": "/late-autumn.png",
+        "description": "Late autumn brings a chill to the air, as the harvest season continues and the temperatures start to drop further. It’s a time for spiritual reflection and connection with nature’s cycles. Festivals like Kartik Puja are celebrated with devotion, as people honor their deities and seek blessings for prosperity. The Agrahayan Festival marks the completion of the rice harvest, and communities gather to celebrate the fruits of their labor. Late autumn in Bangladesh is a season of preparation for the coming winter, with a focus on both spiritual growth and communal celebration.",
+        "events": [
+            {
+                "id": "kartik-puja",
+                "name": "Kartik Puja",
+                "description": "A religious festival celebrated in late autumn, often with various rituals, dances, and offerings to deities.",
+                "dateRange": "November",
+                "image": "link_to_kartik_puja_image.jpg",
+                "avgRating": 4.5
+            },
+            {
+                "id": "agrahayan-festival",
+                "name": "Agrahayan Festival",
+                "description": "A festival marking the end of the rice harvest, celebrated with community gatherings and traditional festivities.",
+                "dateRange": "November to December",
+                "image": "link_to_agrahayan_festival_image.jpg",
+                "avgRating": 4.4
+            }
+        ]
+    },
+    {
+        "season": "Winter",
+        "image": "/winter.png",
+        "description": "Winter in Bangladesh is a beloved season, marked by cooler temperatures and clear skies. It is a time for outdoor activities and festivals that center around warmth, community, and culinary delights. Events like Pitha Utsab, which celebrates traditional rice cakes, bring families and communities together to enjoy homemade treats and warm gatherings. The Naboborsho Celebration, which marks the Bengali New Year, brings with it a spirit of renewal, cultural performances, and festive fairs. Winter is a season of joy, togetherness, and the celebration of life’s simple pleasures.",
+        "events": [
+            {
+                "id": "pitha-festival",
+                "name": "Pitha Utsab",
+                "description": "A winter festival celebrating traditional rice cakes, with various types of pithas prepared and enjoyed in gatherings.",
+                "dateRange": "December to February",
+                "image": "link_to_pitha_utsab_image.jpg",
+                "avgRating": 4.9
+            },
+            {
+                "id": "naboborsho",
+                "name": "Naboborsho Celebration",
+                "description": "A celebration of the Bengali New Year, marked by festivities, fairs, and cultural performances.",
+                "dateRange": "January",
+                "image": "link_to_naboborsho_image.jpg",
+                "avgRating": 4.6
+            }
+        ]
+    },
+    {
+        "season": "Spring",
+        "image": "/spring.png",
+        "description": "Spring is a season of rebirth and renewal, when flowers bloom, the air becomes fresher, and nature seems to come alive again. The first day of spring, celebrated as Pohela Falgun, marks a cultural resurgence with vibrant clothing, music, and dance. People celebrate the arrival of warmer weather and the end of the chill. Valentine’s Day, also celebrated in spring, marks a time for love and togetherness, with gifts, flowers, and special gatherings. Spring is a season of energy, color, and optimism, a reminder of the beauty of change and the joy of new beginnings.",
+        "events": [
+            {
+                "id": "pohela-falgun",
+                "name": "Pohela Falgun",
+                "description": "The first day of spring, celebrated with colorful clothing, flowers, music, and dance, marking the onset of the spring season.",
+                "dateRange": "February",
+                "image": "link_to_pohela_falgun_image.jpg",
+                "avgRating": 5.0
+            },
+            {
+                "id": "valentine-day",
+                "name": "Valentine's Day",
+                "description": "Celebrated with friends and loved ones, this day is marked with flowers, gifts, and gatherings in urban areas.",
+                "dateRange": "February 14",
+                "image": "link_to_valentine_day_image.jpg",
+                "avgRating": 4.3
+            }
+        ]
+    }
+]
