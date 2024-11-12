@@ -1,5 +1,7 @@
 import fs from 'fs';
+import Link from 'next/link';
 import path from 'path';
+import Image from 'next/image';
 
 export default async function SeasonPage({ params }) {
     const {seasonId} = await params;
@@ -9,22 +11,23 @@ export default async function SeasonPage({ params }) {
     const season = data.find(e => e.season.toString().split(' ').join('-') === seasonId);
 
     if (!season) {
-        return <div>Event not found</div>;
+        return <div>Season not found</div>;
     }
 
     return (
-        <div className='min-h-[calc(100vh-6rem)]'>
+        <div className=''>
             <h1 className='text-center text-3xl font-semibold'>{season.season}</h1>
-            <div className='grid grid-cols-3 gap-5 p-4'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 p-4'>
                 {
                     season.events.map(e => {
-                        const {id, name, description} = e;
+                        const {id, name, description, image} = e;
 
                         return (
-                            <article key={id} className='p-4 rounded shadow'>
+                            <Link href={`/seasons/${season.season}/${id}`} key={id} className='p-4 rounded shadow bg-white hover:bg-green-50'>
+                                <Image className='w-full' src={image} alt={id} height={300} width={400} />
                                 <h3 className='text-xl'>{name}</h3>
-                                <p className='py-2'>{description}</p>
-                            </article>
+                                <p className='py-2'>{description.short}</p>
+                            </Link>
                         )
                     })
                 }

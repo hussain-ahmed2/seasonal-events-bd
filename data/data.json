@@ -7,17 +7,23 @@
             {
                 "id": "mango-festival",
                 "name": "Mango Festival",
-                "description": "A celebration of mangoes, showcasing the wide variety grown in Bangladesh. Events include mango tasting, cooking demonstrations, and agricultural fairs.",
+                "description": {
+                    "long": "The Mango Festival is a vibrant celebration dedicated to Bangladesh’s rich mango harvest. It showcases the diversity of mango varieties through tasting sessions, where visitors can savor the unique flavors of local mangoes. The festival includes cooking demonstrations, where chefs exhibit innovative mango-based dishes, and agricultural fairs that highlight the significance of mango farming in rural communities. The festival is a joyful, sensory experience celebrating one of Bangladesh’s most beloved fruits.",
+                    "short": "A festival showcasing Bangladesh’s mango varieties with tastings, cooking demos, and agricultural fairs."
+                },
                 "dateRange": "June to August",
-                "image": "link_to_mango_festival_image.jpg",
+                "image": "/mango-festival.png",
                 "avgRating": 4.7
             },
             {
                 "id": "boishakhi-mela",
                 "name": "Boishakhi Mela",
-                "description": "A cultural fair celebrating Bengali New Year with traditional music, dance, and handicrafts.",
+                "description": {
+                    "long": "Boishakhi Mela is a traditional fair celebrating the Bengali New Year, featuring cultural performances like music and dance that reflect the spirit of Bangladesh. Handicraft stalls, traditional games, and food vendors enhance the vibrant atmosphere. It’s a time for people of all ages to gather and celebrate Bengali heritage, creating a sense of community and pride.",
+                    "short": "A fair for the Bengali New Year with music, dance, handicrafts, and traditional food."
+                },
                 "dateRange": "April to May",
-                "image": "link_to_boishakhi_mela_image.jpg",
+                "image": "/boishakhi-mela.png",
                 "avgRating": 4.8
             }
         ]
@@ -30,17 +36,23 @@
             {
                 "id": "rainy-season-festival",
                 "name": "Rainy Season Festival",
-                "description": "A festival celebrating the arrival of the monsoon, with traditional songs, dances, and boat races.",
+                "description": {
+                    "long": "The Rainy Season Festival embraces the monsoon rains with lively celebrations, including traditional songs and dances that pay homage to the rain’s life-giving power. Boat races are the main highlight, where villages compete with handcrafted boats, showcasing the skill of local artisans. This festival is a time for communities to unite in the joy of the rainy season.",
+                    "short": "Celebrating monsoon rains with songs, dances, and competitive boat races."
+                },
                 "dateRange": "July to September",
-                "image": "link_to_rainy_season_festival_image.jpg",
+                "image": "/rainy-season-festival.png",
                 "avgRating": 4.6
             },
             {
                 "id": "boat-race",
                 "name": "Boat Race",
-                "description": "Popular in the rivers of Bangladesh during monsoon, these boat races showcase local craftsmanship and community spirit.",
+                "description": {
+                    "long": "During the monsoon, rivers across Bangladesh come alive with spirited boat races. Villages enter their best boats, each intricately designed, to compete in fast-paced races. Spectators line the riverbanks, cheering on teams as they row with synchronized precision. It’s a celebration of community pride, local craftsmanship, and athletic skill.",
+                    "short": "A thrilling monsoon event where villages compete in boat races, showcasing skill and community pride."
+                },
                 "dateRange": "August to September",
-                "image": "link_to_boat_race_image.jpg",
+                "image": "/boat-race.png",
                 "avgRating": 4.9
             }
         ]
@@ -53,9 +65,12 @@
             {
                 "id": "nabanna",
                 "name": "Nabanna Utsab",
-                "description": "An autumn festival celebrating the harvest with traditional dance, songs, and food made from the new rice harvest.",
+                "description": {
+                    "long": "Nabanna Utsab celebrates the autumn rice harvest, a season of gratitude and abundance. People gather to enjoy cultural performances, traditional songs, and dances that honor the hard work of farmers. Food stalls offer dishes made from the new rice, allowing visitors to taste the fresh harvest’s richness. It’s a festival that brings rural and urban communities together in thanksgiving.",
+                    "short": "A harvest festival with traditional dance, music, and foods made from fresh rice."
+                },
                 "dateRange": "October to November",
-                "image": "link_to_nabanna_image.jpg",
+                "image": "/nabanna-utsab.png",
                 "avgRating": 4.8
             }
         ]
@@ -68,17 +83,23 @@
             {
                 "id": "kartik-puja",
                 "name": "Kartik Puja",
-                "description": "A religious festival celebrated in late autumn, often with various rituals, dances, and offerings to deities.",
+                "description": {
+                    "long": "Kartik Puja is a sacred Hindu festival dedicated to Lord Kartik, celebrated with deep devotion in late autumn. Devotees perform rituals, sing hymns, and offer flowers and fruits to the deity, seeking blessings for health and prosperity. Cultural performances and processions mark the day, blending religious devotion with festive community spirit.",
+                    "short": "A religious festival with rituals, offerings, and cultural performances."
+                },
                 "dateRange": "November",
-                "image": "link_to_kartik_puja_image.jpg",
+                "image": "/kartik-puja.png",
                 "avgRating": 4.5
             },
             {
                 "id": "agrahayan-festival",
                 "name": "Agrahayan Festival",
-                "description": "A festival marking the end of the rice harvest, celebrated with community gatherings and traditional festivities.",
+                "description": {
+                    "long": "The Agrahayan Festival marks the end of the rice harvest, celebrating the completion of another farming cycle. Families gather to share meals made from the fresh harvest, and communities organize cultural programs with music and dance. It’s a time for farmers to take pride in their work and for communities to honor the agricultural tradition.",
+                    "short": "A festival marking the rice harvest’s end with community meals and celebrations."
+                },
                 "dateRange": "November to December",
-                "image": "link_to_agrahayan_festival_image.jpg",
+                "image": "/agrahayan-festival.png",
                 "avgRating": 4.4
             }
         ]
@@ -91,17 +112,23 @@
             {
                 "id": "pitha-festival",
                 "name": "Pitha Utsab",
-                "description": "A winter festival celebrating traditional rice cakes, with various types of pithas prepared and enjoyed in gatherings.",
+                "description": {
+                    "long": "Pitha Utsab is a delightful winter festival that celebrates traditional Bangladeshi rice cakes, known as “pithas.” Families and vendors showcase various types, each with unique fillings and flavors. The festival is a cozy winter tradition where communities come together to enjoy sweet and savory treats, celebrating Bangladesh’s culinary heritage.",
+                    "short": "A festival for traditional rice cakes, bringing families together to enjoy winter treats."
+                },
                 "dateRange": "December to February",
-                "image": "link_to_pitha_utsab_image.jpg",
+                "image": "/pitha-utsab.png",
                 "avgRating": 4.9
             },
             {
                 "id": "naboborsho",
                 "name": "Naboborsho Celebration",
-                "description": "A celebration of the Bengali New Year, marked by festivities, fairs, and cultural performances.",
+                "description": {
+                    "long": "The Naboborsho Celebration welcomes the Bengali New Year with cultural performances, traditional music, and lively fairs. Communities gather to enjoy street food, handicraft stalls, and theatrical performances, marking the start of the new year with hope and joy. It’s a celebration of culture, tradition, and community spirit.",
+                    "short": "A New Year celebration with music, dance, and fairs, fostering community and cultural pride."
+                },
                 "dateRange": "January",
-                "image": "link_to_naboborsho_image.jpg",
+                "image": "/naboborsho-celebration.png",
                 "avgRating": 4.6
             }
         ]
@@ -114,17 +141,23 @@
             {
                 "id": "pohela-falgun",
                 "name": "Pohela Falgun",
-                "description": "The first day of spring, celebrated with colorful clothing, flowers, music, and dance, marking the onset of the spring season.",
+                "description": {
+                    "long": "Pohela Falgun, the first day of spring, is celebrated with vibrant clothing, flowers, and joyous performances. People adorn themselves in colorful attire, and streets come alive with music and dance, symbolizing the rejuvenation of nature. The day marks a cultural revival, inspiring hope and the beauty of renewal.",
+                    "short": "A spring festival celebrating renewal with flowers, colorful attire, and cultural performances."
+                },
                 "dateRange": "February",
-                "image": "link_to_pohela_falgun_image.jpg",
+                "image": "/pohela-falgun.png",
                 "avgRating": 5.0
             },
             {
                 "id": "valentine-day",
                 "name": "Valentine's Day",
-                "description": "Celebrated with friends and loved ones, this day is marked with flowers, gifts, and gatherings in urban areas.",
+                "description": {
+                    "long": "Valentine's Day in urban Bangladesh is celebrated with gifts, flowers, and gatherings. Couples and friends express their affection with thoughtful gestures, while public spaces host themed events. It’s a day of warmth, bonding, and appreciation for loved ones.",
+                    "short": "A day of love and appreciation with gifts, flowers, and gatherings among friends and loved ones."
+                },
                 "dateRange": "February 14",
-                "image": "link_to_valentine_day_image.jpg",
+                "image": "/valentines-day.png",
                 "avgRating": 4.3
             }
         ]
